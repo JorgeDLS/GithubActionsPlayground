@@ -5,5 +5,5 @@ workflow "Verify Milestone" {
 
 action "VerifyMilestone" {
   uses = "JorgeDLS/enforce-milestone-action@master"
-  secrets = ["GITHUB_TOKEN"]
+  secrets = ["TOKEN"]
 }
